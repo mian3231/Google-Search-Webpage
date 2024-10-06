@@ -65,7 +65,7 @@ form {
     max-width: 90vw; 
     box-sizing: border-box;
     margin-bottom: 30px;
-    border: 1px solid #fff;
+    border: 1px solid rgba(128, 128, 128, 0.582)
 }
 #search-container:hover {
     border: none;
@@ -109,8 +109,8 @@ input[type="text"]::placeholder {
 }
 
 input[type="submit"] {
-        padding: 10px 20px; 
-        background-color: #303134;
+    padding: 10px 20px; 
+    background-color: #303134;
     color: white;
     border: none;
     border-radius: 4px; 
@@ -137,6 +137,7 @@ input[type="submit"]:hover {
     position: fixed;
     bottom: 0;
     background-color: #171717;
+    border-top: 1px solid rgba(128, 128, 128, 0.582);
 }
 
 .footer-container {
