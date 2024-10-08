@@ -10,7 +10,6 @@ body {
     align-items: center;
     height: 60px;
     padding: 0 10px;
-    position: fixed;
     top: 0;
     width: 98%;
     border-color: black;
@@ -70,7 +69,7 @@ input[type="number"] {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
     font-weight: 100;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .advanced-search label {
@@ -98,7 +97,7 @@ input[type="number"] {
 #button {
     display: flex;
     justify-content: flex-end;
-    padding: 10px 0 0 0;
+    padding: 20px 0 0 0;
 }
 #button input {
     background-color: #8ab4f8;
@@ -141,6 +140,7 @@ input[type="number"] {
     width: 100%;
     box-sizing: border-box;
     bottom: 0;
+    margin-top: 30px;
     background-color: #171717;
     border-top: 1px solid rgba(128, 128, 128, 0.582);
 }
@@ -186,8 +186,8 @@ input[type="number"] {
 
 }
 .appbar {
-    margin-top: 90px;
-    margin-left: 65px;
+    margin-top: 25px;
+    margin-left: 55px;
 }
 
 .appbar label{
